@@ -13,6 +13,8 @@ justify-content-between
 offset-4 - move column for 4 spaces
 offset-md-4
 ml-auto - przesyuwa wszystko w prawą stronę 
+my - top
+my-sm-0 
 mr-auto - przesunie następną kolumnę do końca strony
 mt-1 - margin top (max 5) ()m[t,b,l,r,x,y] - x - left and right, y - top and bottom, blank -all away around
 p - jak wyżej tylko z paddingiem
