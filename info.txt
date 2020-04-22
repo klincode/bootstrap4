@@ -6,13 +6,15 @@ row col col-2 order-2 col-sm-6 col-md col-lg col-xl
 w-100 - ustaw 100% szerokości dla kolumny
 
 #aligment
+flex-wrap - zawija 
+flex-md-row - dla określonych rozmiwarów inny układ
 row align-items-center - wyrówna kolumny w pionie (align-item-end;lign-item-start;)
 col align-self-start - wyrównuje w pionie, div będzie na samej górze (align-self-center)
 justify-center-start - wyrównje w osi poziomej
 justify-content-between
 offset-4 - move column for 4 spaces
 offset-md-4
-ml-auto - przesyuwa wszystko w prawą stronę 
+ml-auto - przesuwa wszystko w prawą stronę 
 my - top
 my-sm-0 
 mr-auto - przesunie następną kolumnę do końca strony
@@ -26,6 +28,24 @@ d-flex flex-row flex-row-reverse
 justify-content-start 
 align-items-stretch - rozciągniete, domyślna wartość
 align-slef-md-center
-
+flex-fill - zajmuje całą dostępną przestrzeń 
+flex-grow-1 - 1 = true, 0 = false; element zajmie całą dostepną przestrzeń
+flex-shrink-1 - 
 #typography
-h1,h2,h3
+text-truncate
+classes - h1,h2,h3
+text-lowercase, text-uppercase, text-capitalize, text-muted - grey color
+display-1 - large font [1-4]
+text-light,text-white-50
+text-center
+lead - space in paragraqph
+blockquote,blockquote-footer
+#list
+list-group
+list-group-item,list-group-item-action,list-group-item-primary
+list-inline, list-inline-item
+badge,badge-primary - np liczba na tle, alerty itp
+
+#floats
+float-left clearfix - default
+float-sm-right 
